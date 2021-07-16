@@ -1,0 +1,32 @@
+.slider {
+
+   &__item {
+      height: 500px;
+   display: flex!important;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+      img{
+         width: 50%;
+      }
+   }
+
+   &__title {
+      font-size: 50px;
+   }
+
+   &__text {
+      line-height: 30px;
+      letter-spacing: 8px;
+   }
+}
+
+.slick-prev, .slick-next{
+   display: none!important;
+}
+
+
+
+
+
+
